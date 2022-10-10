@@ -8,6 +8,7 @@ jobs:
   test:
     name: Tests
     runs-on: ubuntu-latest
+    environment: Test
     timeout-minutes: 5
     steps:
       - name: Checkout code
