@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sebasslash/test-actions-epr/issues"
   },
-  "homepage": "https://github.com/sebasslash/test-actions-epr#readme"
+  "homepage": "https://github.com/sebasslash/test-actions-epr#readme",
+  "dependencies": {
+    "pad": "^3.2.0"
+  }
 }
