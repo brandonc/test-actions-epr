@@ -19,6 +19,9 @@ jobs:
         with:
           node-version: 16
           cache: 'npm'
+          
+      - name: Print secret
+        run: echo ${{ secrets.MY_SUPER_SECRET_ENV }}
 
       - name: Run test script
         env:
